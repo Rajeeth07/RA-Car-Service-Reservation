@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Img/logg.webp");
+    background-attachment: fixed;
+    height: 85vh;
+}
+h1, h2{
+    color: rgb(219, 111, 111);
+}
+div{
+    padding: 50px;
+    margin:80px auto;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+button{
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 10px;
+    border: 0;
+    font-size: 15px;
+    background-color: rgb(10, 10, 8);
+}
+button:hover{
+    color:rgb(186, 251, 201);
+}
